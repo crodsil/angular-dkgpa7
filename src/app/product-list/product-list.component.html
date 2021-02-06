@@ -1,4 +1,3 @@
-<h2>Products</h2>
 
 <!-- adicionando uma diretiva estrutural -->
 <div *ngFor="let product of products">
@@ -16,6 +15,7 @@
     Share
   </button>
 
-	<app-product-alerts [product]="product" (notify)="onNotify()">
+	<app-product-alerts [product]="product" 
+  (notify)="onNotify()">
 	</app-product-alerts>
 </div>
